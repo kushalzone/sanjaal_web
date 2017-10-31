@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sanjaal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+<h2>Welcome to Sanjaal Corps</h2>
+
+<div class="row">
+
+    <div class="alert info">
+        <span class="closebtn">&times;</span>
+        This is the new version of Sanjaal Corps Homepage. Welcome !!
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <span class="label green">About Us</span>
+        <span class="label blue">Contact Us</span>
+        <span class="label orange">Our Network</span>
+        <span class="label red">Register</span>
+        <span class="label green">Login</span>
+    </div>
+
+</div>
+
+<p/><p/>
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card">
+            <img src="images/3redbooks-300px.png" alt="Avatar" style="width:80%">
+            <div class="container">
+                <h4><b>Nepali Poems</b></h4>
+                <p>नेपाली कविता, गजल, गीत  आदि </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card">
+            <img src="images/3redbooks-300px.png" alt="Avatar" style="width:80%">
+            <div class="container">
+                <h4><b>Nepali Stories</b></h4>
+                <p>Interior Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card">
+            <img src="images/3redbooks-300px.png" alt="Avatar" style="width:80%">
+            <div class="container">
+                <h4><b>Nepali Videos</b></h4>
+                <p>Interior Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card">
+            <img src="images/3redbooks-300px.png" alt="Avatar" style="width:80%">
+            <div class="container">
+                <h4><b>Nepali Stories</b></h4>
+                <p>Interior Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card">
+            <img src="images/3redbooks-300px.png" alt="Avatar" style="width:80%">
+            <div class="container">
+                <h4><b>Nepali Stories</b></h4>
+                <p>Interior Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card">
+            <img src="images/3redbooks-300px.png" alt="Avatar" style="width:80%">
+            <div class="container">
+                <h4><b>Nepali Stories</b></h4>
+                <p>Interior Designer</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <p/>
+    <p/>
+    <p/>
+    <div class="row">
+    <div class="chip">
+        <img src="images/img_avatar.png" alt="Person" width="96" height="96">
+        John Doe
+    </div>
+    <div class="chip">
+        <img src="images/img_avatar.png" alt="Person" width="96" height="96">
+        John Doe
+    </div>
+    <div class="chip">
+        <img src="images/img_avatar.png" alt="Person" width="96" height="96">
+        John Doe
+    </div>
+    </div>
+
+</div>
+
+
+
+
+<script>
+// Get all elements with class="closebtn"
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+// Loop through all close buttons
+for (i = 0; i < close.length; i++) {
+    // When someone clicks on a close button
+    close[i].onclick = function(){
+
+        // Get the parent of <span class="closebtn"> (<div class="alert">)
+        var div = this.parentElement;
+
+        // Set the opacity of div to 0 (transparent)
+        div.style.opacity = "0";
+
+        // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+        setTimeout(function(){ div.style.display = "none"; }, 600);
+    }
+}
+</script>
+
+</body>
+</html>
