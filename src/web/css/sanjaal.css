@@ -56,10 +56,11 @@ div {
     background-color: #ff9800;
 }
 
-img {
+.img {
     border-radius: 5px 5px 0 0;
     width: 100%;
     height: auto;
+    margin: auto;
 }
 
 .container {
